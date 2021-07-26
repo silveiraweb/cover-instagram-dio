@@ -15,3 +15,4 @@ Repositório da aula de Flexbox, criando interface de login do Instagram!
 - Criação do footer
 - Inclusão de select para idiomas
 - Adição de links reais para login, alternar contas  e inscrição
+- Adição de links reais para elementos de navegação do footer
