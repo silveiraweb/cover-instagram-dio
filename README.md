@@ -1,8 +1,12 @@
 # Projeto Digital Inovation One
 
-## Recriando a página inicial do Instagram
+## HTML Web Developer
+
+### Recriando a página inicial do Instagram
 
 Repositório da aula de Flexbox, criando interface de login do Instagram! 
+
+Front-End Básico
 
 ### Os requisitos são:
 
