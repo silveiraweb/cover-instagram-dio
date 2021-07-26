@@ -8,7 +8,6 @@
 }
 
 body {
-    border: 1px solid red;
     width: 100%;
     min-height: 100vh;
     background-color: rgb(243, 243, 243);
@@ -19,8 +18,6 @@ body {
 }
 
 .instagram-wrapper {
-    
-    border: 1px solid green;
     display: flex;
     align-items: center;
     justify-content: start;
@@ -29,7 +26,6 @@ body {
 }
 
 .instagram-phone {
-    border: 1px solid blue;
     display: flex;
     justify-content: center;
     width: 60%;
@@ -49,7 +45,6 @@ body {
 }
 
 .group {
-    border: 1px solid yellow;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -107,6 +102,7 @@ body {
     justify-content: center;
     width: 100%;
     padding: 1.3rem 0;
+    color: rgb(161, 161, 161);
 }
 
 .download {
@@ -131,21 +127,40 @@ body {
     background-image: url('./img/googleplay-button.png');
 }
 footer{
+    font-weight: 100;
+    display: block;
     position: absolute;
-    bottom: 0;
+    bottom: -70px;
     text-align: center;
+    font-size: .85rem; 
+    color: rgb(161, 161, 161);
+}
+footer a{
+     color: rgb(161, 161, 161);
+     font-size: .8rem;
 }
 footer nav ul{
-    font-size: 0.1em;
-    margin: auto;
+    padding: 15px;
     display: block; 
-    margin: 0 auto;
+    text-align: center;
 }
  
 footer nav ul li{
     display: inline;
     margin:  0 5px ;  
-    font-size: .85rem; 
+    font-size: .8rem;
+}
+footer select{
+    border: none;
+    font-size: .8rem; 
+    margin: 0 10px;
+    background-color: rgb(243, 243, 243);
+    color: rgb(161, 161, 161);
+}
+footer div span{
+    border: none;
+    font-size: .8rem;
+    padding-bottom:50px ; 
 }
 /* media queries */
 @media (max-width: 1024px) {
